@@ -1,0 +1,30 @@
+@baseUrl = http://localhost:8000/api/v1
+@userId = 1
+
+### User registration
+POST {{baseUrl}}/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "test2",
+    "email": "test2@hblab.vn",
+    "password": "123456"
+}
+
+### Find User By Id
+GET {{baseUrl}}/user/{{userId}}
+
+
+### Update User
+POST {{baseUrl}}/user/{{userId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "DuongPQ",
+    "email": "duongpq@hblab.vn",
+}
+
+### Delete User
+DELETE {{baseUrl}}/user/4
