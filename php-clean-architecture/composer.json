@@ -1,0 +1,15 @@
+{
+    "name": "admin/php-clean-architecture-duongpq",
+    "autoload": {
+        "psr-4": {
+            "Admin\\PhpCleanArchitectureDuongpq\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DuongPQ",
+            "email": "duongpq@hblab.vn"
+        }
+    ],
+    "require": {}
+}
